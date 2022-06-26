@@ -21,7 +21,6 @@ body {
     background: #1f2937;
 }
 
-
 img {
     max-width: 100%;
 }
@@ -37,6 +36,13 @@ a {
 
 a:hover {
     color: #FAE1B1;
+}
+
+button {
+    font-size: 112.5%;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .container {
@@ -128,18 +134,14 @@ a:hover {
     line-height: 3rem;
 }
 
-.header .hero-text p,
-.header .hero-text button {
+.header .hero-text p {
     font-size: 112.5%;
 }
 
 .header .hero-text button {
     color: #e5e7eb;
-    font-weight: 600;
     background: #3882f6;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
 }
 
 /*
@@ -153,14 +155,19 @@ a:hover {
 }
 
 .main-info .container {
+    justify-content: center;
+    align-items: center;
+    max-height: 600px;
+}
+
+.main-info .container .main-info-box {
     /* !TODO adjust the height */
-    min-height: 400px;
-    min-width: 100%;
-    padding: 30px;
+    min-height: 500px;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    border: 2px solid #fff;
+    gap: 3rem;
+    justify-content: center;
 }
 
 .main-info .container .boxes {
@@ -181,8 +188,17 @@ a:hover {
     border-radius: 10px;
 }
 
+/* *Individual element design */
+
 .box p {
     text-align: center;
+    font-size: 112.5%;
+}
+
+.main-info-box h2 {
+    font-size: 237.5%;
+    font-weight: 800;
+    color: #1f2937;
 }
 
 /*
@@ -203,8 +219,19 @@ a:hover {
     align-items: center;
 }
 
+
+/* *Individual element design */
+.quote-text blockquote {
+    font-size: 225%;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
 .quote-text p {
     text-align: right;
+    font-size: 180%;
+    font-weight: 800;
 }
 
 /*
@@ -214,12 +241,12 @@ a:hover {
 */
 .cta {
     background: #f9faf8;
-    color: #000;
+    color: #f9faf8;
 }
 
 .cta .container {
     /* !TODO adjust the height */
-    min-height: 400px;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -230,10 +257,17 @@ a:hover {
     border-radius: 15px;
     padding: 50px;
     min-width: 90%;
-    min-height: 200px;
+    min-height: 150px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+}
+
+/* *Individual element design */
+.cta .cta-box button {
+    background: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
 }
 
 /*
@@ -245,6 +279,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #e5e7eb;
 }
 
 /*
