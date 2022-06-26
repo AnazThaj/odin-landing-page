@@ -12,12 +12,15 @@
 }
 
 body {
+    /* max-width: 1080px; */
+    max-width: 100vw;
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
     line-height: 1.5;
     color: #f9faf8;
     background: #1f2937;
 }
+
 
 img {
     max-width: 100%;
@@ -53,6 +56,7 @@ a:hover {
 /*
     =================================================
     *Progress#2: Inner layout design style arrangement of items
+    *Progress#3: Individual element style customization
     =================================================
 */
 
@@ -81,6 +85,16 @@ a:hover {
     margin-left: 20px;
 }
 
+/* *Individual element design */
+.navbar .logo {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.navbar a {
+    font-size: 112.5%;
+}
+
 /*
     ----------------------
     ?Layout: Header
@@ -94,8 +108,38 @@ a:hover {
     gap: 10px;
 }
 
-.header .container > * {
-    flex: 1;
+.header .container > img {
+    max-width: 50%;
+    filter: invert(6%) sepia(79%) saturate(2137%) hue-rotate(237deg) brightness(95%) contrast(110%);
+}
+
+/* *Individual element design */
+.header .hero-text > * {
+    margin-bottom: 5px;
+}
+
+.header .hero-text > *:last-child {
+    margin-bottom: 0;
+}
+
+.header .hero-text h1 {
+    font-size: 300%;
+    font-weight: 800;
+    line-height: 3rem;
+}
+
+.header .hero-text p,
+.header .hero-text button {
+    font-size: 112.5%;
+}
+
+.header .hero-text button {
+    color: #e5e7eb;
+    font-weight: 600;
+    background: #3882f6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 /*
