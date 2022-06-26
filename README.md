@@ -30,12 +30,13 @@ It is a very basic site built using flexbox. The main goal was to learn to struc
 
 ## Stats
 *Target*:   3 hours
+
 *Actual*:   4 hours 30 minutes
 
 _NOTE: Time it took to update the README.md is excluded: 26 minutes_
 
 ### Atribution
 #### Images
-- SVG image, used in header section, by[Gordon Johnson](https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1751176) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1751176)
+- SVG image, used in header section, by [Gordon Johnson](https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1751176) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1751176)
 
 - Kitten images by [placekitten](https://placekitten.com/)
