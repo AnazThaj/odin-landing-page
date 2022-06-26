@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*
+    =================================================
+    *Progress#1: Basic Layout design style elements
+    =================================================
+*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +13,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 100%;
     line-height: 1.5;
     color: #f9faf8;
     background: #1f2937;
@@ -38,3 +43,168 @@ a:hover {
     display: flex;
 }
 
+/*
+    =================================================
+    !Progress#1: Basic Layout design style elements
+    =================================================
+*/
+
+
+/*
+    =================================================
+    *Progress#2: Inner layout design style arrangement of items
+    =================================================
+*/
+
+
+/*
+    ----------------------
+    ?Layout: Navbar
+    ----------------------
+*/
+.navbar,
+.footer {
+    height: 60px;
+}
+
+.navbar .container {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+/*
+    ----------------------
+    ?Layout: Header
+    ----------------------
+*/
+.header .container {
+    /* !TODO adjust the height */
+    min-height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .container > * {
+    flex: 1;
+}
+
+/*
+    ----------------------
+    ?Layout: Section-info
+    ----------------------
+*/
+.main-info {
+    background: #f9faf8;
+    color: #1f2937;
+}
+
+.main-info .container {
+    /* !TODO adjust the height */
+    min-height: 400px;
+    min-width: 100%;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #fff;
+}
+
+.main-info .container .boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-info .container .boxes .box {
+    /* !TODO adjust the width */
+    flex-basis: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box p {
+    text-align: center;
+}
+
+/*
+    ----------------------
+    ?Layout: Section-quote
+    ----------------------
+*/
+.quote {
+    background: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote .container {
+    /* !TODO adjust the height */
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text p {
+    text-align: right;
+}
+
+/*
+    ----------------------
+    ?Layout: Section-cta
+    ----------------------
+*/
+.cta {
+    background: #f9faf8;
+    color: #000;
+}
+
+.cta .container {
+    /* !TODO adjust the height */
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .cta-box {
+    background: #3882f6;
+    border-radius: 15px;
+    padding: 50px;
+    min-width: 90%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*
+    ----------------------
+    ?Layout: Footer
+    ----------------------
+*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+    =================================================
+    !Progress#2: Inner layout design style arrangement of items
+    =================================================
+*/
