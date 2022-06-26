@@ -1,4 +1,5 @@
-# odin-landing-page
+# [odin-landing-page](https://anazthaj.github.io/odin-landing-page/)*
+*\*click the link above to visit the page*
 
 The second project in the Foundations track of The Odin Project. HTML and CSS are used with flexbox.
 
@@ -14,7 +15,7 @@ It is a very basic site built using flexbox. The main goal was to learn to struc
     2.1 HTML boilerplate -> Sectioning -> Arranging the elements inside the sections -> (Inspect elements to make sure the elements are correctly placed)
     2.2 CSS: get the resources ready (images, fonts, color schemes, etc.) -> add foundational style (*, body, and other most used items) -> section wise style (width-height, display types, etc.) -> individual element styles (font level customization)
 
-*Doing this project exposed me to number of challenges*
+**Doing this project exposed me to number of challenges**
 1. Time management - overall
 2. Layout decisions - (sectioning and subsectioning the container elements)
 3. Finding resources (images, fonts, colors)
@@ -29,11 +30,11 @@ It is a very basic site built using flexbox. The main goal was to learn to struc
 3. Build a resource portfolio to my arsenal of tools
 
 ## Stats
-*Target*:   3 hours
+_**Target**_:   **3 hours**
 
-*Actual*:   4 hours 30 minutes
+_**Actual**_:   **4 hours 30 minutes**
 
-_NOTE: Time it took to update the README.md is excluded: 26 minutes_
+_**NOTE**: Time it took to update the README.md is excluded: 26 minutes_
 
 ### Atribution
 #### Images
